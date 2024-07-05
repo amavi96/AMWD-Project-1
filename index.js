@@ -11,7 +11,7 @@ function renderStudent(student, index) {
   const card = document.createElement('div');
   card.classList.add('card');
   card.innerHTML = `
-  ${(student.gender == "male") ? '<img src="/assets145867.png"/>' : '<img src="/assets186037.png"/>'}
+  
     <h1>Name: ${student.name}</h1>
     <h1>Gender: ${student.gender}</h1>
     <h1>DOB: ${student.dob}</h1>
